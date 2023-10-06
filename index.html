@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> persal portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/3bd203701d.js" crossorigin="anonymous"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logooo-removebg-preview.png"  class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>      
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">service </a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>FullStack Developer</p>
+                    <h1><span>Hi, I'm Farah </span> <br>From Kerala</h1>
+                </div>
+            </div>
+
+        </div>
+<!-- ---------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="about-sec">
+            <div class="about-img">
+                <img class="img-about" src="images/image2.webp">
+            </div>
+            <div class="about-text">
+                <h1 class="subtitle" >About Me</h1>
+                <p> I am Farah Abdul Gafoor , I am an award-winning full-stack web developer and UI/UX javascript specialist.
+                    Check out my articles, React and React Native UI components at the code laboratory.
+                    Feel free to take a look at my latest projects on the web portfolio page.
+                    
+                    contact me at farahabdulgafoor243@gmail.com</p>
+          <div class="tab-titles">
+            <p class="tab-links  active-link"  onclick="opentab('skills')">Skills</p>
+            <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+            <p class="tab-links"  onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab " id="skills">
+            <ul>
+                <li><span>UI/UX</span><BR> Desingning Web And  App interface</li>
+                    <li><span>Web development</span><BR> web app development</li>
+                        <li><span>Appp development</span><BR> Mobile App Development</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2023</span><BR> web developer at brototype</li>
+                    <li><span>2021</span><BR> ui?ux designer in brototype</li>
+                        <li><span>2019</span><BR> internship at brototype</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2023</span><BR> mern stack from brototype</li>
+                    <li><span>2020</span><BR> MCA fromassabah technical institute</li>
+                        <li><span>Appp development</span><BR> Bsc Cs from assabah</li>
+            </ul>
+          </div>
+          
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- -------services------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>You get creatve and unique websites from me , you will ensure the quality of its </p>
+                
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+            
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>You get creatve and unique applications from me , you will ensure the quality of its </p>  
+                
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>YOu will get the buetifull and attractive designs for your websites and apps at cheep price just 20k only</p>
+                
+               <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- ------portfolio----- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+<div class="worklist">
+    <div class="work">
+        <img src="images/WhatsApp Image 2023-10-02 at 12.01.45 PM.jpeg" >
+   <div class="layer">
+    <h3>clasmate clone</h3>
+    <p>the app connect you to the talented around the world.Download it from playstore</p>
+    <a href="https://github.com/farahabdhul/classmateclone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+   </div>
+    </div>
+    <div class="work">
+        <img src="images/WhatsApp Image 2023-10-02 at 12.00.05 PM.jpeg" alt="1131">
+        <div class="layer">
+            <h3>Music App</h3>
+            <p>the app connect you to the talented around the world.Download it from playstore</p>
+            <a href="https://open.spotify.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+           </div>
+    </div>
+    <div class="work">
+        <img src="images/WhatsApp Image 2023-10-02 at 12.01.45 PM.jpeg" alt="1411">
+        <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>the app connect you to the talented around the world.Download it from playstore</p>
+            <a href="https://farahabdhul.github.io/amazoneclon/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+           </div>
+    </div>
+</div>
+<a href="#" class="btn">see more</a>
+    </div>
+ </div>
+<!-- -------contact----- -->
+<div id="contact">
+    <div class="container">
+
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> farahabdulgafoor243@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 1222998877</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/farah_abdhul?igshid=NGVhN2U2NjQ0Yg=="><i class="fa-brands fa-instagram"></i></a>
+                   
+                </div>
+                <a href="images/WhatsApp Image 2023-10-02 at 3.38.45 PM.jpeg" download="" class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+            <form id="submit-form"  action="">
+                <input type="text" name="Name" placeholder="your name" required>
+                <input type="email" name="Email" placeholder="your email id" required>
+                <textarea name="Messeges" rows="6" placeholder="Your Messege"></textarea>
+              <button type="submit" class="btn btn2"  >Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright@farah abdul gafoor L369..</p>
+    </div>
+</div>
+
+<script>
+$("#submit-form").submit((e)=>{
+    e.preventDefault()
+    $.ajax({
+        url:"https://script.google.com/macros/s/AKfycbzorvqCLeXb-6BzJOdViN3B5u-zApbLBXZCsdmIZ_ysdTPh2w3AVCnRnA_d5H1DDKWl/exec",
+        data:$("#submit-form").serialize(),
+        method:"post",
+        success:function (response){
+            alert("Form submitted successfully")
+            window.location.reload()
+            //window.location.href="https://google.com"
+        },
+        error:function (err){
+            alert("Something Error")
+
+        }
+    })
+})
+</script>
+ 
+
+
+
+
+    </body>
+</html>
